@@ -1,0 +1,257 @@
+
+/*Fonts*/
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
+@import 'https://fonts.googleapis.com/css?family=Lato:100';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700';
+/*Fonts*/
+ 
+ 
+ /*Scroll bar changes*/
+/* 
+::-webkit-scrollbar-track {
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+ width: 6px;
+ background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+ background-color: #ccc;
+}
+
+::-webkit-scrollbar-track-piece:start {
+/* Select the top half (or left half) or scrollbar track individually */
+/*
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+/* Select the thumb when the browser window isn't in focus */
+  /*
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:hover {
+/* Select the down or left scroll button when it's being hovered by the mouse */
+/*
+}
+/*Scroll bar changes*/
+
+/*
+body, html {
+	font-family: 'Roboto', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-text-rendering: optimizeLegibility !important;
+	font-smoothing: antialiased !important;
+	-webkit-font-smoothing: antialiased !important;
+	/*color: #5a5a5a;
+	color: #000;
+	height: 100%;
+}
+*/
+.fright {
+	float: right;
+}
+h1 {
+	text-transform: uppercase;
+}
+h1 strong {
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 900;
+}
+h4 {
+	text-transform: uppercase;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* product section*/
+
+#tf-products {
+	background: #f5f7fa;
+	padding: 130px 0 35px;
+}
+.product-heading {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #323533;
+	border-left: 4px #ed6262 solid;
+	padding-left: 25px;
+	font-size: 69px;
+	margin-top: 20px;
+}
+.product-head {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #323533;
+	padding-left: 510px;
+	font-size: 30px;
+	margin-top: -100px;
+	color: blue;
+}
+.product-content {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 61px;
+	color: #323533;
+	padding-left: 24px;
+}
+.product-contentn {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 25px;
+	color: #323533;
+	padding-left: 110px;
+	margin-top: -110px;
+
+}
+.product-intro {
+	font-size: 22px !important;
+	font-weight: 300;
+	text-align: left !important;
+	margin-top: 20px !important;
+	padding-left: 28px;
+	color: #323533;
+}
+ul.products-list {
+	margin: 66px 0 0;
+	margin-left: 50px;
+}
+ul.products-list li {
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 40px;
+}
+ul.products-list li span {
+	margin-right: 33px;
+	float: left;
+	margin-top: 32px;
+}
+ul.products-list li .fa {
+	color: #323533 !important;
+}
+ul.products-list li strong {
+	font-size: 18px;
+	font-weight: 500;
+}
+ul.products-list li p {
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 32px;	
+	margin-top: -160px;
+	text-align:justify;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#tf-products .produ-img {
+	margin-top: -180px;
+}
+
+/*Plan Section*/
+
+#tf-plan {
+	padding: 120px 0;
+	/*background: #f5f7fa;*/
+	
+	background: url(../img/plan-bg-full.jpg) no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+}
+.plan-d {
+	margin-top: -30px;
+}
+
+.plan-d div:nth-child(2) {  margin-left:0px; }
+
+.plan-d .col-md-3 {
+	padding: 0;
+	margin-left: 34px;
+	margin-right: 8px;
+}
+#tf-plan h3 {
+	margin-bottom: 40px;
+}
+.plan-col {
+	background: #fff;
+	padding: 55px 15px;
+	border-radius: 10px;
+}
+.plan-col h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: none;
+	color: #323533;
+	margin-bottom: 45px;
+}
+.plan-col h4 span {
+	background: #333;
+	color: #fff;
+	padding: 5px;
+	font-weight: normal;
+	font-size: 14px;
+	border-radius: 5px;
+	display: block;
+	float: right;
+	margin-top: 5px;
+}
+.plan-col span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	color: #323533;
+}
+.spec {
+	color: #ed6262 !important;
+}
+.plan-col span sub {
+	bottom: 0;
+	color:#999;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.plan-col ul {
+	list-style: none;
+	margin-top: 45px;
+}
+.plan-col ul li {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.8;
+	color: #323433;
+}
+.plan-col ul li i {
+	color: #ed6262;
+	margin-right: 8px;
+}
+.plan-col .plan-loc-btn {
+	color: #73757d;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	border-radius: 40px;
+	text-transform: uppercase;
+	padding: 12px 42px;
+	margin-top: 45px;
+}
+.plan-col .spec-btn {
+	background: #ed6262;
+	color: #fff;
+}

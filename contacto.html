@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>MakingSystem >> Contacto</title>
+    <meta content="MakingSystem" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="img/favicon.png" rel="icon" type="image/png" />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/main_cont.css" rel="stylesheet">
+    <link href="css/media-queries.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_cont.css">
+    <script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+<script type="text/javascript">
+  (function () {
+    var options = {
+      facebook: "633875810459170", // Facebook page ID
+      whatsapp: "+52 9515842324", // WhatsApp number
+      call_to_action: "", // Call to action
+      button_color: "#33cc33", // Color of button
+      position: "left", // Position may be 'right' or 'left'
+      order: "facebook,whatsapp", // Order of buttons
+    };
+    var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<body id="body">
+    <div id="preloader">
+        <img alt="Preloader" src="img/preloader.gif">
+        </img>
+    </div>
+    <header class="navbar-fixed-top navbar" id="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                    <span class="sr-only">
+                            Toggle navigation
+                        </span>
+                    <i class="fa fa-bars fa-2x">
+                        </i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1 id="logo">
+                            <img alt="MakingSystem" src="img/logo.png">
+                            </img>
+                        </h1>
+                </a>
+            </div>
+            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <ul class="nav navbar-nav" id="nav">
+                    <li>
+                        <a class="external" href="index.html">
+                                INICIO
+                            </a>
+                    </li>
+                    <li>
+                        <a class="external" href="desarrollo.html">
+                                DESARROLLO DE SOFTWARE
+                            </a>
+                    </li>
+                    <li>
+                        <a class="external" href="paginas.html">
+                                PAGINAS WEB
+                            </a>
+                    </li>
+                    <li>
+                        <a class="external" href="diseño.html">
+                                DISEÑO GRAFICO
+                            </a>
+                    </li>
+                    <li>
+                        <a class="external" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li>
+                        <a href="http://google.com">
+                                
+                            </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="slider">
+        <div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" style="background-image: url(img/secciones/contacto.jpg);">
+                    <div class="carousel-caption">
+                        <h2 class="wow bounceInDown animated" data-wow-delay="500ms" data-wow-duration="700ms">
+                                <span>
+                                  ENVÍANOS UN MENSAJE 
+                                </span>
+                            </h2>
+                        <h3 class="wow slideInLeft animated" data-wow-duration="1000ms">
+                                <span class="color">
+                                </span>
+                            </h3>
+                       <!-- <p class="wow slideInRight animated" data-wow-duration="1000ms">
+                            No solo confíe en nuestra palabra. Echa un vistazo a algunos de nuestros últimos trabajos.
+                        </p>-->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="contact-form">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <form action="enviar.php" method="post">
+                  <div class="form-group">
+                    <input type="text" id="names" name="nombre" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="email" name="correo" class="form-control" placeholder="Correo Electronico">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="phone" name="telefono" class="form-control" placeholder="Telefono">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <form action="enviar.php" method="post">
+                  <div class="form-group-2">
+                    <textarea id="mensaje" name="mensaje" class="form-control" rows="3" placeholder="Tu Mensaje"></textarea>
+                  </div>
+                  <button id="btnSend" class="btn btn-default" type="submit">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div id="contact-box" class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <h2>Visita Nuestras Redes Sociales</h2>
+                <ul class="address-block">
+                  <li>
+                    <i class="fa fa-map-marker"></i>Dirección
+                  </li>
+                  <li>
+                    <i class="fa fa-envelope-o"></i>Email: team@makingsystem.com
+                  </li>
+                  <li>
+                    <i class="fa fa-phone"></i>Telefono: 951-584-23-24
+                  </li>
+                </ul>
+
+                <ul class="social-icons">
+                  <li>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <h2>COTIZA POR WHATSAPP</h2>
+                  <div class="google-map">
+                      
+                         <div class="icon_whatsapp">
+                           <a href="https://api.whatsapp.com/send?phone=529515842324&text=COTIZA MAKINGSYSTEM" target="_blank"><img src="img/what.png"></div></a>
+                         </div>
+                  
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <!-- TERMINA FORMULARIO CONTACTO -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright text-center">
+                        <img alt="MakingSystem" src="img/footer-logo.png">
+                        <br> Copyright © 2019
+                        <a href="http://">
+                                            MakingSystem
+                                        </a> .Derechos Reservados
+                        <a href="http://">
+                        </a>
+                        </br>
+                        </img>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="javascript:void(0);" id="back-top">
+            <i class="fa fa-angle-up fa-3x">
+            </i>
+        </a>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.singlePageNav.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/jquery.parallax-1.1.3.js"></script>
+        <script src="js/jquery-countTo.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/custom.js"></script> 
+</body>
+
+</html>
