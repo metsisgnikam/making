@@ -235,6 +235,7 @@ top: -8px;
 /*CSS SERVICIOS QUE OFRECEMOS PAGINA OFICIAL-------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 .team h2{
+  font-family: 'Open Sans', sans-serif;
   color: #003399;
   font-size: 20px;
   font-weight: 800;
@@ -242,6 +243,7 @@ top: -8px;
 }
 
 .sec-title h2 {
+  font-family: 'Open Sans', sans-serif;
   color: #003399;
   font-size: 20px;
   font-weight: 800;
@@ -328,7 +330,7 @@ top: -8px;
 }
 
 .service-desc h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #062033;
   font-size: 18px;
   font-weight: 600;
@@ -336,8 +338,8 @@ top: -8px;
   text-align: justify;
 }
 .service-desc p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
   font-weight: 350;
   margin-bottom: 25px;
   text-align: justify;
