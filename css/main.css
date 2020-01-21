@@ -331,11 +331,11 @@ top: -8px;
 }
 
 .service-desc h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #062033;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2a2a47;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   text-align: justify;
 }
 .service-desc p {
