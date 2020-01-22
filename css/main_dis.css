@@ -631,3 +631,22 @@ z-index: 9;
   font-size: 18px;
   border-radius: 7px 7px;
 }
+.btn-light {
+  padding: 9px 37px;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #0054fd;
+  border-radius: 12px 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.btn-light:hover,
+.btn-light:focus {
+  color: rgba(255, 255, 255);
+  background: #003399;
+  border-radius: 12px 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
