@@ -26,15 +26,6 @@
   padding: 2rem 3% 1rem 4%;
 }
 
-.work-content .w-more {
-  color: #4e4e4e;
-  font-size: .8rem;
-}
-
-.work-content .w-more .w-ctegory {
-  color: #0078ff;
-}
-
 .work-content .w-like {
   font-size: 2.5rem;
   color: #0078ff;
@@ -50,8 +41,10 @@
 }
 
 .w-title {
-  font-size: 1.8rem;
-  color: #000;
+  font-size: 1.7rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #021c52;
+  font-weight: bold;
 }
 
 @media (min-width: 577px) {

@@ -78,12 +78,13 @@ body > section,
 padding: 10px 0;
 }
 
-.sec-title {}
+
 
 .sec-title h2 {
-color: #3f3cfd;
-font-size: 20px;
+color: #003399;
+font-size: 28px;
 font-weight: 800;
+font-family: 'Source Sans Pro', sans-serif;
 text-transform: uppercase;
 }
 
@@ -271,7 +272,7 @@ margin: 6px 0 20px;
 
 .carousel-caption p {
 color: #fff;
-font-size: 18px;
+font-size: 25px;
 font-weight: 300;
 }
 
