@@ -70,7 +70,8 @@ padding: 10px 0;
 .sec-title {}
 
 .sec-title h2 {
-color: #3f3cfd;
+color: #003399;
+font-family: 'Source Sans Pro', sans-serif;
 font-size: 28px;
 font-weight: 800;
 text-transform: uppercase;
@@ -92,13 +93,13 @@ margin-top: 30px;
 }
 
 .devider i {
-color: #cccccc;
+color: #33CC33;
 }
 
 .devider:before,
 .devider:after {
 content: "______________________";
-color: #e6e8ea;
+color: #33CC33;
 position: relative;
 bottom: 6px;
 }
@@ -195,7 +196,7 @@ font-weight: 800;
 }
 
 .carousel-caption h3 {
-font-size: 48px;
+font-size: 25px;
 font-weight: 300;
 margin: 6px 0 20px;
 }

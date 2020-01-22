@@ -112,7 +112,7 @@ p {
 	padding-left: 24px;
 }
 .product-contentn {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-align: left;
 	font-size: 25px;
@@ -137,7 +137,7 @@ ul.products-list li {
 	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 40px;
 }
 ul.products-list li span {
@@ -153,8 +153,10 @@ ul.products-list li strong {
 	font-weight: 500;
 }
 ul.products-list li p {
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 20px;
+	/*font-weight: 400;*/
+	
+	color: rgb(66, 66, 66);
 	margin-left: 32px;	
 	margin-top: -160px;
 	text-align:justify;
@@ -194,7 +196,7 @@ ul.products-list li p {
 	border-radius: 10px;
 }
 .plan-col h4 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 36px;
 	font-weight: 400;
 	text-transform: none;
@@ -225,7 +227,7 @@ ul.products-list li p {
 	bottom: 0;
 	color:#999;
 	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 .plan-col ul {
@@ -233,7 +235,9 @@ ul.products-list li p {
 	margin-top: 45px;
 }
 .plan-col ul li {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 15px;
 	line-height: 1.8;
 	color: #323433;
 }
@@ -242,10 +246,10 @@ ul.products-list li p {
 	margin-right: 8px;
 }
 .plan-col .plan-loc-btn {
-	color: #73757d;
-	font-family: 'Roboto', sans-serif;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
-	font-weight: 300;
+	font-weight: 600;
 	border-radius: 40px;
 	text-transform: uppercase;
 	padding: 12px 42px;
