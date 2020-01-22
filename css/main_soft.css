@@ -68,13 +68,14 @@ body > section,
 }
 
 .sectitleac{
-  font-weight: 600;
+  
   font-family: 'Source Sans Pro', sans-serif;;
   text-align: center;
-  color: #0b0c0c;
+  color: #000000;
 }
 #boton {
   margin-top: 3em;
+  
 }
 .texdesc{
   padding: 5em 3em;
@@ -616,7 +617,7 @@ float: left;
 .message-box h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  color: #000;
   padding: 0 0 10px;
   margin: 0;
   line-height: 62px;
@@ -627,8 +628,8 @@ float: left;
 .message-box p {
   color: rgb(68, 59, 59);
     font-size: 16px;
-    font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
     text-align: justify;
     line-height: 1.5;
 }
@@ -651,17 +652,17 @@ float: left;
 
 .btn-light {
   padding: 9px 37px;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
-  background-color: #33CC33;
+  background-color: rgb(40, 207, 40);
 }
 
 
 
 .btn-light:hover,
 .btn-light:focus {
-  border-color: #33CC33;
+  border-color: rgb(40, 207, 40);
   color: rgba(255, 255, 255);
-  background: rgb(15, 155, 15);
+  background: rgb(9, 155, 9);
 }
 
