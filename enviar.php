@@ -2,7 +2,7 @@
 
 // Llamando a los campos
 $nombre = $_POST['nombre'];
-$correo = $_POST['correo'];
+$correo = $_POST['email'];
 $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
 
@@ -11,7 +11,7 @@ $destinatario = "makingsystems@gmail.com";
 $asunto = "Contacto desde nuestra web";
 
 $carta = "De: $nombre \n";
-$carta .= "Correo: $correo \n";
+$carta .= "email: $correo \n";
 $carta .= "Telefono: $telefono \n";
 $carta .= "Mensaje: $mensaje";
 
